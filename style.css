@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: Merriweather;
+  scrollbar-width: none; 
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color:#1E3A5F;
+}
+
+main {
+  width: 80%;
+  max-width: 1500px;
+  min-width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #FF6F61;
+  color: #1E3A5F;
+  border-radius: 20px;
+}
+
+#tribute-intro, #tribute-contact {
+  text-align: center;
+}
+
+#tribute-intro h1 {
+  font-size: 2.5rem;
+}
+
+#tribute-intro p {
+  font-style: italic;
+  padding-bottom: 5px;
+}
+
+#tribute-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#img-div, #tribute-intro h1, #tribute-intro p, #image, #img-caption {
+  margin: 0 auto;
+}
+
+#image {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid #1E3A5F;
+}
+
+#img-caption {
+  font-style: italic;
+}
+
+.emoticon {
+  font-style: normal;
+}
+
+#tribute-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section {
+  width: 90%;
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #9B4DFF;
+  border-radius: 20px;
+  border: 5px solid #1E3A5F;
+}
+
+#tribute-contact section {
+  margin: 10px auto 0;
+  background-color: #1E3A5F;
+  border: 5px solid #9B4DFF;
+  color: #9B4DFF;
+}
+
+#tribute-link {
+  color: #FF6F61;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/*I have an issue here... If the device width is low then it doesn't work fine */
+#tribute-link:hover {
+  color: #1E3A5F;
+  background-color: #FF6F61;
+  font-weight: bold;
+  border: 5px solid #9B4DFF;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1,5rem;
+}
+
+h1, .h1-like-text {
+  font-size: 2rem;
+}
+
+
+/*
+border: 1px solid red;
+
+Deep Ocean Blue (#1E3A5F)
+Neon Aqua (#00FFFF)
+Marine Green (#2D6A4F)
+Electric Purple (#9B4DFF)
+Soft Coral (#FF6F61)
+Glowing White (#FFFFFF)
+Dark Slate Gray (#2F3A3D)
+Light Gray (#F0F0F0)
+With this palette, you can create a tribute page that feels both aquatic and tech-savvy, highlighting the futuristic nature of the AI-generated fish while maintaining a clean, readable design.
+
+*/
